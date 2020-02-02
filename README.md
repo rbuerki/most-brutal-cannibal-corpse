@@ -1,6 +1,6 @@
 # Using Data to Find the Most Brutal Cannibal Corpse Song
 
-A repository containing code for a little analytics project in Python to identify the most brutal song based on audio features and analysis of the lyrics. I have written a [blogpost on Medium](https://medium.com/p/bf318d0b3ef4/) about it that gives a nice overview over the approach and the result. But the jupyter notebooks here go a little deeper explaining and analyzing certain aspects of the project.
+A repository containing code for an analytics project in Python to identify the most brutal song based on audio features and analysis of the lyrics. I have written a [blogpost on Medium](https://medium.com/p/bf318d0b3ef4/) about it. That post gives a nice overview over the approach and the result. The jupyter notebooks provided here go a little deeper in explaining and analyzing certain aspects of the project.
 
 In case you don't know what Cannibal Corpse is - shame on you! Follow this [link](https://en.wikipedia.org/wiki/Cannibal_Corpse), please.
 
@@ -28,7 +28,7 @@ This project requires **Python 3.7** and the following Python libraries installe
 - [nltk](http://www.nltk.org/)
 
 You will need to register for the Spotify and Genius APIs to work with your own credentials. I'll keep mine secret.
-And you will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
+And you will also need to have software installed to run and execute an [Jupyter Notebook](http://ipython.org/notebook.html)
 
 `environment.yml` and `requirements.text` are provided.
 
