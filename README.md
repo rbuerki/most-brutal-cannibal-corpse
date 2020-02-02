@@ -34,11 +34,11 @@ And you will also need to have software installed to run and execute an [iPython
 
 ## Acknowledgements and Thanks
 
--   Evan Oppenheimer for inspiring me with his [blogpost on finding the angriest Death Grip song](https://towardsdatascience.com/angriest-death-grips-data-anger-502168c1c2f0) (in R)
--   Charlie Tompson for inspiring Evan in the first place with this [blogpost on finding sad Radiohead songs]( https://www.rcharlie.com/post/fitter-happier/) (in R too)
--   Saif Mohammad for publishing [The NRC Valence, Arousal, and Dominance Lexicon](http://saifmohammad.com/WebPages/nrc-vad.html)
--   Everybody contributing to the [spotipy library](https://spotipy.readthedocs.io/en/latest/)
--   Chris Hyland for this really helpful [Blogpost on scraping song lyrics](https://chrishyland.github.io/scraping-from-genius/)
--   Spotify for providing a very well documented and complete [Web API](https://developer.spotify.com/documentation/web-api/reference/)
--   Genius for providing a nice [Web API](https://docs.genius.com/#/getting-started-h1) too
--   All the nerds contributing to Genius
+- Evan Oppenheimer for inspiring me with his [blogpost on finding the angriest Death Grip song](https://towardsdatascience.com/angriest-death-grips-data-anger-502168c1c2f0) (in R)
+- Charlie Tompson for inspiring Evan in the first place with this [blogpost on finding sad Radiohead songs]( https://www.rcharlie.com/post/fitter-happier/) (in R too)
+- Saif Mohammad for publishing [The NRC Valence, Arousal, and Dominance Lexicon](http://saifmohammad.com/WebPages/nrc-vad.html)
+- Everybody contributing to the [spotipy library](https://spotipy.readthedocs.io/en/latest/)
+- Chris Hyland for this really helpful [Blogpost on scraping song lyrics](https://chrishyland.github.io/scraping-from-genius/)
+- Spotify for providing a very well documented and complete [Web API](https://developer.spotify.com/documentation/web-api/reference/)
+- Genius for providing a nice [Web API](https://docs.genius.com/#/getting-started-h1) too
+- All the nerds contributing to Genius
