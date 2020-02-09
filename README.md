@@ -1,6 +1,6 @@
 # Using Data to Find the Most Brutal Cannibal Corpse Song
 
-A repository containing code for an analytics project in Python to identify the most brutal song based on audio features and analysis of the lyrics. I have written a [blogpost on Medium](https://medium.com/p/bf318d0b3ef4/) about it. That post gives a nice overview over the approach and the result. The jupyter notebooks provided here go a little deeper in explaining and analyzing certain aspects of the project.
+A repository containing code for an analytics project in Python to identify the most brutal song based on audio features and analysis of the lyrics. I have written a [blogpost on Medium](https://medium.com/p/bf318d0b3ef4/) about it. That post gives a nice overview over the approach and the result. The jupyter notebooks stored here provide all the code and go a little deeper in explaining and analyzing certain aspects of the project.
 
 In case you don't know what Cannibal Corpse is - shame on you! Follow this [link](https://en.wikipedia.org/wiki/Cannibal_Corpse), please.
 
@@ -11,7 +11,9 @@ The analysis was performed in Python. Audio related features were requested from
 The analysis is broken up in **two parts / jupyter notebooks**:
 
 1) The first contains the requesting of audio features from the Spotify API and the calculation of a "Sonic Brutality Index" for each song. It also contains an appendix comparing Cannibal Corpse's 'brutality' to that of Cannabis Corpse (of interest for Death Metal nerds only).
-2) The second contains the scraping of the lyrics from genius.com and the calculation of a "Lyrical Brutality Index", and then the final "Total Brutality Index" by combining _sbi_ and _lbi_.
+2) The second contains the scraping of the lyrics from genius.com and the calculation of a "Lyrical Brutality Index", and then of the final "Total Brutality Index" by combining _sbi_ and _lbi_.
+
+Each notebook has an Appendix with some extra analyis. If you are into Cannibal Corpse - have a look ;-).
 
 ## Install
 
@@ -42,3 +44,6 @@ And you will also need to have software installed to run and execute an [Jupyter
 - Spotify for providing a very well documented and complete [Web API](https://developer.spotify.com/documentation/web-api/reference/)
 - Genius for providing a nice [Web API](https://docs.genius.com/#/getting-started-h1) too
 - All the nerds contributing to Genius
+
+
+**Project End Date:** Feb 2020
