@@ -25,7 +25,7 @@ def get_artist_albums(artist_uri):
     """Return a dict of albums for the respective albums.
     Setting title as key catches some duplicates."""
     albums = {}
-    results = sp.artist_albums(artist_uri, album_type='album')
+    results = sp.artist_albums(artist_uri, album_type='album', limit=25)
     for i, item in enumerate(results['items']):
         albums[item['name'].title()] = item['uri']
     return albums
@@ -84,7 +84,6 @@ song_data[['title', 'sbi']].nlargest(5, 'sbi')
 
 
 # Check for (musically) most brutal song
-
 most_brutal_uri = song_data['uri'].loc[song_data['sbi'] == song_data['sbi'].max()].values[0]
 results = sp.track(most_brutal_uri)
 print('track       : ' + results['name'])
@@ -98,7 +97,7 @@ def get_duration(list_of_song_uri):
     for song_uri in list_of_song_uri:
         results = sp.track(song_uri)
         duration_dict[song_uri] = results['duration_ms']
-        
+       
     return duration_dict
 
 
