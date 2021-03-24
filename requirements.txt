@@ -63,7 +63,7 @@ pywinpty==0.5.7
 PyYAML==5.3.1
 pyzmq==18.1.1
 requests==2.22.0
-rsa==3.4.2
+rsa==4.1
 s3transfer==0.2.1
 scikit-learn==0.22.1
 scipy==1.4.1
